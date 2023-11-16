@@ -1,4 +1,4 @@
-# Bisection Method in Python
+# SPNL-Bisection Method
     
    def bisection(f, a, b, tol, max_iter):
     if f(a) * f(b) >= 0:
