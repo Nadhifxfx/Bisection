@@ -35,7 +35,7 @@ if root is not None:
 else:
     print("Bisection method did not converge.")
 ```
-
+Output:
 ```
 Approximate root: -1.344727
 ```
