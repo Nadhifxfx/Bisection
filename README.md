@@ -1,4 +1,4 @@
-# SPNL-Bisection Method
+# SPNL Bisection Method
 Berikut adalah code yang berhubungan dengan Bisection dengan Python
 ```python
    def bisection(f, a, b, tol, max_iter):
