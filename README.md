@@ -1,5 +1,5 @@
 # SPNL-Bisection Method
-    
+    ```python
    def bisection(f, a, b, tol, max_iter):
     if f(a) * f(b) >= 0:
         print("Bisection method may not converge because f(a) and f(b) have the same sign.")
@@ -26,6 +26,7 @@ a = -2.0 # Left endpoint of the interval
 b = 0.0  # Right endpoint of the interval
 tolerance = 0.001 # Tolerance for stopping criteria
 max_iterations = 13 # Maximum number of iterations
+```
 
 root = bisection(example_function, a, b, tolerance, max_iterations)
 
