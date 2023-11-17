@@ -1,5 +1,6 @@
 # SPNL-Bisection Method
-
+Berikut adalah code yang berhubungan dengan Bisection dengan Python
+```python
    def bisection(f, a, b, tol, max_iter):
     if f(a) * f(b) >= 0:
         print("Bisection method may not converge because f(a) and f(b) have the same sign.")
@@ -33,3 +34,8 @@ if root is not None:
     print(f"Approximate root: {root:.6f}")
 else:
     print("Bisection method did not converge.")
+```
+
+```
+Approximate root: -1.344727
+```
